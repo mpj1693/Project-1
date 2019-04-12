@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+<<<<<<< HEAD
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,12 +10,78 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Project-1</title>
+=======
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Ticketify</title>
+>>>>>>> 6549eb517993656e9c0c1fb452e199e4ee352130
 </head>
+
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+  <header class="container container-fluid jumbotron jumbotron-fluid text-warning text-center p-4">
+    <h1>Welcome to Ticketify</h1>
+    <br>
+    <div class="spotify-login">
+      Please log in to your <b class="badge badge-pill badge-primary">Spotify</b> account to generate your music library
+      <br>
+      <label for="log-in">
+        Spotify:
+        <button class="btn btn-primary">log-in</button>
+    </div>
+    </label>
+
+    <br>
+    <br>
+
+    <!-- <div class="location">
+      Please enter your zip code to see the list of upcoming concerts in your area by the artists you listen to
+      <br>
+      <label for="zip">
+        Zip Code:
+        <input type="number" name="zip" id="zip">
+      </label>
+    </div> -->
+  </header>
+
+
+  <main class="container container-fluid">
+    <div class="card">
+      <h4 class="card-header bg-primary text-light">
+        Upcoming Events
+      </h4>
+      <div class="card-body">
+        <button id="ticketmaster-btn">This button is temporary: trigger ticketmaster API event</button>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Artist</th>
+                <th>Venue</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Price Range</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </main>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>
