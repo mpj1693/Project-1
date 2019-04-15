@@ -8,53 +8,89 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <title>Ticketify</title>
 </head>
 
 <body>
+        <!-- ticketify header -->
+     <div class="conatiner">
+  <div class="header">
+    <h1 class="text-center">Ticketify</h1>
+   </div>
+      <!-- End of Header -->
 
-  <header class="container container-fluid jumbotron jumbotron-fluid text-warning text-center p-4">
-    <h1>Welcome to Ticketify</h1>
-    <br>
-    <div class="spotify-login">
-      Please log in to your <b class="badge badge-pill badge-primary">Spotify</b> account to generate your music library
-      <br>
-      <label for="log-in">
-        Spotify:
-        <button class="btn btn-primary">log-in</button>
-    </div>
-    </label>
+      <!-- Check Local Concert Text -->
+   <div class="lil-header">
+     <h5 class="text-center text1">Check local concerts around the area!</h5>
 
-    <br>
-    <br>
+         <!-- End of Text -->
 
-    <!-- <div class="location">
-      Please enter your zip code to see the list of upcoming concerts in your area by the artists you listen to
-      <br>
-      <label for="zip">
-        Zip Code:
-        <input type="number" name="zip" id="zip">
-      </label>
-    </div> -->
-  </header>
-
-
-  <main class="container container-fluid">
-    <div class="card">
-      <h4 class="card-header bg-primary text-light">
-        Upcoming Events
-      </h4>
-      <div class="card-body">
-
+         <!-- Enter your zipcode -->
+     <div class="zip-code">
+     <h4 class="text-center text-white">Enter your zipcode!</h4>
+     <div class="input-group  col-md-5  zipcode">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="addon-wrapping">Zipcode</span>
+        </div>
+      
+        <input type="text" class="form-control" placeholder="#" aria-label="Username" aria-describedby="addon-wrapping">
       </div>
-    </div>
-  </main>
+      <br>
+      <button class="search-button">Search</button>
+     <br>
+     </div>
+
+           <!-- End of zipcode -->
+
+           
+             <!-- Spotify-button -->
+     <p class="log-in hide spotify-button">Log in with &nbsp  &nbsp<button class="button button1 text-center"><b>Spotify</b></button></p>
+          <!-- End of Spotify-button -->
+
+            
+            <!-- Spotify-Login -->
+     <div class="card card-font hide login-spotify" >
+      <div class="card-header bg-light text-center">
+       <b class="spotify-font">Spotify</b>
+      </div>
+      <div class="card-body text-center">
+       
+        <form class="form-inline d-flex justify-content-center">
+
+            <div class="col-auto">
+                <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                </div>
+              </div>
+
+
+          <div class="form-group">
+            <label for="inputPassword6">Password</label>
+            <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+            
+          </div>
+        </form>
+        <br>
+        
+        <a class="btn btn-info login-button">Log In</a>
+      </div>
+   
+                <!-- End of Spotify-Login -->
+
+  
 
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
   <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
