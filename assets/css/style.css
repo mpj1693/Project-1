@@ -8,9 +8,16 @@ html {
   background-size: cover;
   padding-left: 300px;
   padding-right: 300px;
-  padding-top: 50px;
+  margin-top: 50px;
   opacity: 0.8;
+  margin-bottom: 20px;
 }
+
+body {
+  background-color: #ffffff00;
+}
+
+
 
 .header {
   background-color: #64ABB8;
@@ -103,11 +110,34 @@ a:not([href]):not([tabindex]):hover {
 
 }
 
-/* .zip-code {
-  display: none;
-}  */
+.playlist {
+  margin-left: -150px;
+  padding: 20px;  
+  color: black;
+  padding-top: 10px;
+  }
 
+  .playlist-font {
+    font-size: 20px;
+    font-weight: 800;
 
+  }
+
+  .ticket {
+    margin-right:-180px;
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .ticket-font {
+    font-size: 20px;
+    font-weight: 800;
+
+  }
+   .horizontal {
+     padding: 40px;
+     background-color: rgba(0,0,0,.075);
+   }
 
 @media (max-width: 1024px) {
   

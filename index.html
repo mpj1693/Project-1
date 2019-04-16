@@ -9,15 +9,19 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
   <title>Ticketify</title>
 </head>
 
 <body>
         <!-- ticketify header -->
+        
      <div class="conatiner">
-  <div class="header">
+     <div class="header"> 
     <h1 class="text-center">Ticketify</h1>
    </div>
+  </div>
+  
       <!-- End of Header -->
 
       <!-- Check Local Concert Text -->
@@ -28,7 +32,7 @@
 
          <!-- Enter your zipcode -->
      <div class="zip-code">
-     <h4 class="text-center text-white">Enter your zipcode!</h4>
+     <h5 class="text-center text-white">Enter your zipcode!</h5>
      <div class="input-group  col-md-5  zipcode">
         <div class="input-group-prepend">
           <span class="input-group-text" id="addon-wrapping">Zipcode</span>
@@ -71,7 +75,7 @@
 
           <div class="form-group">
             <label for="inputPassword6">Password</label>
-            <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+            <input type="password"  class="mx-sm-3" aria-describedby="passwordHelpInline">
             
           </div>
         </form>
@@ -79,8 +83,59 @@
         
         <a class="btn btn-info login-button">Log In</a>
       </div>
-   
-                <!-- End of Spotify-Login -->
+      </div>
+      </div>
+      </div>
+    </div>
+                  <!-- End of Spotify-Login -->
+
+                  <!-- col for ticketmaster and spotify -->
+          <div class="spotify-ticketmaster hide col-xs-6">
+                <!-- Main col Spotify-playlist -->
+         <br>
+                <!-- Horizontal Header -->
+         <div class="horizontal text-center">
+           <div class="class col-md-12">
+             <div class="row">
+             <div class="col-md-4">
+                <button type="button" class="btn btn-success">Success</button>
+             </div>
+             <div class="col-md-4">
+                <button type="button" class="btn btn-success">Success</button>
+              </div>
+              <div class="col-md-4">
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+             </div>
+            </div>
+           </div>
+         </div>
+        
+         <br>
+
+         <div style="width: 450px;background-color: rgb(255, 255, 255); float: left;" class="playlist text-center">
+            <p class="playlist-font">Playlist</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa fuga, sequi ducimus architecto facere enim nobis ab nemo reiciendis nam labore molestias temporibus optio, autem quae, sed dolorem magni.</p>
+            </div>
+            <!-- Main col Ticketmaster -->
+
+          <div style="margin-left: 340px; background-color: #64ABB8"
+          class="ticket text-center">
+                <p class="ticket-font">Concert Tickets</p>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium perferendis repellat voluptas voluptatibus illo tempora esse sint illum reprehenderit obcaecati ipsam similique possimus incidunt, modi tempore, expedita placeat earum. Libero!</p>
+                </div>
+            <!-- end of ticketmaster -->
+
+          </div>
+
+          <!-- End of ticketmaster and spotify -->
+    
 
   
 
@@ -89,7 +144,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
 
   <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
